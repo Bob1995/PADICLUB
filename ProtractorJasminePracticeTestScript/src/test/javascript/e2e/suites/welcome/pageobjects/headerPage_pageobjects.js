@@ -1,0 +1,21 @@
+var headerPageObjects = function () {
+    this.goPrimiumLink = $('[ng-click="vm.goPremiumLink($event);"]')
+    this.gotoSearchIcon = $('[ng-click="vm.goToSearch($event)"]')
+    this.bellIcon = $('[ng-click="vm.Toggle()"]')
+    this.openMenu = $('[ng-click="vm.openMenu()"]')
+    this.add_boxIcon = $('[class="material-icons add-box"]')
+    this.padiClubIcon = $('[ng-click="vm.goToCommunity($event)"]')
+    this.activityTab = $('[ng-click="vm.goToCommunity($event)"]')
+    this.exploreTab = $('[ng-click="vm.goToSearch($event)"]')
+    this.logBookTab = $('[ng-click="vm.gotoLogBook($event)"]')
+    this.mediaProfileTab = $('[ng-click="vm.goToMediaProfile($event)"]')
+    this.logADiveTab = $('[ng-click="vm.gotoLogADive($event)"]')
+    this.profileTab = $('[ng-click="vm.goToProfile($event)"]')
+    this.favoritesTab = $('[ng-click="vm.goToFavorites($event)"]')
+    this.notificationTab = $('[ng-click="vm.goToNotifications($event)"]')
+    this.settingsTab = $('[ng-click="vm.goToSettings($event)"]')
+    this.logoutTab = $('[ng-click="vm.logOut()"]')
+    this.benefitsTab = $('[ng-click="vm.goToBenefits()"]')
+    this.sendFeedbackTab = $('[ng-click="vm.sendFeedback($event)"]')
+}
+module.exports = headerPageObjects
